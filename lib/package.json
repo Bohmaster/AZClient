@@ -1,0 +1,23 @@
+{
+  "name": "AZClient",
+  "version": "0.0.3",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-inject": "^3.0.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "AZ Club main client application"
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="AZClient">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>{{APP.name}}</title>
+
+        <!-- inject:css -->
+        <link rel="stylesheet" href="/assets/css/stylesheets/application.css">
+        <link rel="stylesheet" href="/assets/css/stylesheets/ie.css">
+        <link rel="stylesheet" href="/assets/css/stylesheets/main.css">
+        <link rel="stylesheet" href="/assets/css/stylesheets/normalize.css">
+        <link rel="stylesheet" href="/assets/css/stylesheets/print.css">
+        <link rel="stylesheet" href="/assets/css/stylesheets/screen.css">
+        <!-- endinject -->
+
+        <!-- dependencies -->
+        <script src="assets/vendor/handler/modernizr.js"></script>
+        <script src="assets/vendor/handler/jquery.js"></script>
+        <script src="assets/vendor/handler/angular.js"></script>
+        <script src="assets/vendor/handler/angular-ui-router.js"></script>
+        <script src="assets/vendor/handler/angular-animate.js"></script>
+        <script src="assets/vendor/handler/angular-resource.js"></script>
+        <script src="assets/vendor/handler/ui-bootstrap.js"></script>
+        <script src="assets/vendor/handler/ui-bootstrap-tpls.js"></script>
+        <!-- enddependencies -->
+
+    </head>
+    <body>
+
+        <section class="wrapper">
+            <header id="navigation">
+                <div class="container">
+                    <h1>{{ APP.name }}</h1>
+                </div>
+            </header>
+            <ui-view></ui-view>
+        </section>
+
+        <!-- application -->
+        <script src="main.js"></script>
+
+        <!-- inject:js -->
+        <script src="/app/az.js"></script>
+        <script src="/app/controllers/HomeController.js"></script>
+        <script src="/app/controllers/LayoutController.js"></script>
+        <script src="/app/routes/routes.js"></script>
+        <!-- endinject -->
+
+    </body>
+</html>

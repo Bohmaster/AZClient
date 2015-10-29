@@ -1,0 +1,32 @@
+{
+  "name": "AZClient",
+  "version": "0.0.3",
+  "authors": [
+    "Bohmaster <voidhmaster@gmail.com>"
+  ],
+  "description": "AZ Club main client application",
+  "main": "main.js",
+  "keywords": [
+    "ultimate"
+  ],
+  "license": "MC",
+  "homepage": "www.azclub.com.ar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "angular-bootstrap": "~0.14.3",
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass": "~3.3.5",
+    "bootstrap-sass-official": "~3.3.5",
+    "modernizr": "~3.1.0"
+  }
+}

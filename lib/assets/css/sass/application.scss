@@ -1,0 +1,16 @@
+@import "base";
+@import "bootstrap";
+
+/* MAIN LAYOUT */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation {
+  background: #808080;
+  text-align: center;
+  height: 80px;
+}
